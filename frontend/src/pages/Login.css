@@ -1,0 +1,30 @@
+/* Page background */
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0f2ff, #fff, #ffe0cc);
+  padding: 20px;
+}
+
+/* Login card styling */
+.login-card {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* Gradient login button */
+.gradient-btn {
+  background: linear-gradient(to right, #007bff, #ff7b00);
+  border: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gradient-btn:hover {
+  opacity: 0.9;
+}
+
+/* Focus effect for inputs */
+.form-control:focus {
+  border-color: #ff7b00;
+  box-shadow: 0 0 0 0.15rem rgba(255, 123, 0, 0.25);
+}
